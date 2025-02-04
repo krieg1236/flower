@@ -1,3 +1,117 @@
-<h1>
-  hello world
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myFlower</title>
+    <style>
+        body{
+            background-color: #f5f4ef;
+            align-content: center;
+        }
+        label{
+            display: inline-block;
+            width: 70px;
+            text-align: left;
+            font-size: 20px;
+        }
+        button{
+            background-color: #53524e;
+            font-size: 15px;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 7px;
+        }
+        #font{
+            font-family:'Courier New', Courier, monospace; 
+            font-weight: normal;
+        }
+        .position{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+        footer {
+            clear: both;
+            height: 100px;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+            height: 5rem; 
+        }
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:active {
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="position">
+    <h1 align="center" id="font">click the button to see flower</h1>
+  
+    <div align="center" id="font">
+        <button name="submit" onclick="replacePage()" id="font">click</button>
+    </div>
+  <script id="script">
+          function replacePage(){
+            document.write(`
+            <link rel="stylesheet" href="styles.css"
+            <div class="flower">
+              <div class="f-wrapper">
+                <div class="flower__line"></div>
+                <div class="f">
+                  <div class="flower__leaf flower__leaf--2"></div>
+                  <div class="flower__leaf flower__leaf--3"></div>
+                  <div class="flower__leaf flower__leaf--4"></div>
+                  <div class="flower__leaf flower__leaf--5"></div>
+                  <div class="flower__leaf flower__leaf--6"></div>
+                  <div class="flower__leaf flower__leaf--7"></div>
+                  <div class="flower__leaf flower__leaf--8"></div>
+                  <div class="flower__leaf flower__leaf--9"></div>
+                  <div class="flower__leaf flower__leaf--10"></div>
+                  <div class="flower__leaf flower__leaf--11"></div>
+                  <div class="flower__leaf flower__leaf--12"></div>
+                  <div class="flower__leaf flower__leaf--13"></div>
+                  <div class="flower__leaf flower__leaf--14"></div>
+                  <div class="flower__leaf flower__leaf--15"></div>
+                  <div class="flower__leaf flower__leaf--16"></div>
+                  <div class="flower__leaf flower__leaf--17"></div>
+                  <div class="flower__leaf flower__leaf--18"></div>
+                  <div class="flower__leaf flower__leaf--19"></div>
+                  <div class="flower__leaf flower__leaf--1"></div>
+                  <div class="leaf leaf--1"></div>
+                  <div class="leaf leaf--2"></div>
+                </div>
+              </div>
+            </div>
+            `)
+          }
+    </script>
+</div>
+<div>
+    <footer id="font">
+    <p align="center">Made by,<br>
+    <a href="https://github.com/krieg1236">Min</a> </p>
+    </footer>
+</div>
+</body>
+</html>
+</html>
