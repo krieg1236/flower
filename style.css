@@ -7,7 +7,7 @@
 }
 
 :root {
-  --color-bg: #f5f4ef;
+  --color-bg: linear-gradient(to top, #f5f4ef, #f5f4ef);
 }
 
 body {
